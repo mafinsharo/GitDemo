@@ -42,5 +42,7 @@ public class TC002_ForgotPasswordAlertTest extends BaseClass {
         driver.navigate().back();
         System.out.println("changes made");
 
+        System.out.println("Changes made in second test case");
+
     }
 }
