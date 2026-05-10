@@ -40,7 +40,6 @@ public class TC002_ForgotPasswordAlertTest extends BaseClass {
         System.out.println("✅ Test case TC002_ForgotPasswordAlert passed - Test case is valid");
 
         driver.navigate().back();
-        System.out.println("changes made");
 
         System.out.println("Changes made in second test case");
 
