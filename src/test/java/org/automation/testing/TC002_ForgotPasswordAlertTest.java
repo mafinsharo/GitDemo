@@ -41,5 +41,6 @@ public class TC002_ForgotPasswordAlertTest extends BaseClass {
 
         driver.navigate().back();
 
+
     }
 }
