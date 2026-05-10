@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-AutomationSuite" class="navigator-link">
-              <span class="suite-name border-passed">AutomationSuite</span>
+              <span class="suite-name border-failed">AutomationSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-AutomationSuite" class="hide-methods failed suite-AutomationSuite"> (hide)</a> <!-- hide-methods failed suite-AutomationSuite -->
+                      <a href="#" panel-name="suite-AutomationSuite" class="show-methods failed suite-AutomationSuite"> (show)</a> <!-- show-methods failed suite-AutomationSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-AutomationSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationSuite" title="org.automation.testing.TC005_MoneySearchBoxTest" class="method navigator-link" hash-for-method="testMoneySearchBox">testMoneySearchBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-AutomationSuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,11 +118,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-AutomationSuite" title="org.automation.testing.TC002_ForgotPasswordAlertTest" class="method navigator-link" hash-for-method="testForgotPasswordAlert">testForgotPasswordAlert</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-AutomationSuite" title="org.automation.testing.TC005_MoneySearchBoxTest" class="method navigator-link" hash-for-method="testMoneySearchBox">testMoneySearchBox</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -138,6 +147,36 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-AutomationSuite" class="panel AutomationSuite">
+          <div class="suite-AutomationSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.automation.testing.TC005_MoneySearchBoxTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMoneySearchBox">
+                  </a> <!-- testMoneySearchBox -->
+                  <span class="method-name">testMoneySearchBox</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain &quot;TATA&quot;. Current title: &quot;Tata Consult. Serv. Share Price Live NSE BSE – Tata Consultancy Services Ltd. Stock | Rediff Money&quot;.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2481726\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58085}, goog:processID: 18328, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58085/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 73ffff080c1bcda186428afda3240657
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+	at org.automation.testing.TC005_MoneySearchBoxTest.testMoneySearchBox(TC005_MoneySearchBoxTest.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-failed -->
           <div class="suite-AutomationSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -149,6 +188,21 @@
                   <a name="testForgotPasswordAlert">
                   </a> <!-- testForgotPasswordAlert -->
                   <span class="method-name">testForgotPasswordAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-passed -->
+          <div class="suite-AutomationSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.automation.testing.TC003_PrivacyPolicyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPrivacyPolicyPage">
+                  </a> <!-- testPrivacyPolicyPage -->
+                  <span class="method-name">testPrivacyPolicyPage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -179,36 +233,6 @@
                   <a name="validateFeedbackLinkInMoneyPage">
                   </a> <!-- validateFeedbackLinkInMoneyPage -->
                   <span class="method-name">validateFeedbackLinkInMoneyPage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-AutomationSuite-class-passed -->
-          <div class="suite-AutomationSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">org.automation.testing.TC003_PrivacyPolicyTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testPrivacyPolicyPage">
-                  </a> <!-- testPrivacyPolicyPage -->
-                  <span class="method-name">testPrivacyPolicyPage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-AutomationSuite-class-passed -->
-          <div class="suite-AutomationSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">org.automation.testing.TC005_MoneySearchBoxTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testMoneySearchBox">
-                  </a> <!-- testMoneySearchBox -->
-                  <span class="method-name">testMoneySearchBox</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -273,19 +297,19 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testMoneySearchBox')
 data.setCell(0, 2, 'org.automation.testing.TC005_MoneySearchBoxTest')
-data.setCell(0, 3, 4815);
+data.setCell(0, 3, 20231);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validateFeedbackLinkInMoneyPage')
-data.setCell(1, 2, 'org.automation.testing.TC004_MoneyFeedbackTest')
-data.setCell(1, 3, 3891);
+data.setCell(1, 1, 'testPrivacyPolicyPage')
+data.setCell(1, 2, 'org.automation.testing.TC003_PrivacyPolicyTest')
+data.setCell(1, 3, 4067);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testPrivacyPolicyPage')
-data.setCell(2, 2, 'org.automation.testing.TC003_PrivacyPolicyTest')
-data.setCell(2, 3, 3755);
+data.setCell(2, 1, 'validateFeedbackLinkInMoneyPage')
+data.setCell(2, 2, 'org.automation.testing.TC004_MoneyFeedbackTest')
+data.setCell(2, 3, 3391);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testForgotPasswordAlert')
 data.setCell(3, 2, 'org.automation.testing.TC002_ForgotPasswordAlertTest')
-data.setCell(3, 3, 1958);
+data.setCell(3, 3, 2392);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'testSignInAlert')
 data.setCell(4, 2, 'org.automation.testing.TC001_SignInAlertTest')
@@ -294,7 +318,7 @@ window.suiteTableData['AutomationSuite']= { tableData: data, tableDiv: 'times-di
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 31 seconds</span>
               <div id="times-div-AutomationSuite">
               </div> <!-- times-div-AutomationSuite -->
             </div> <!-- times-div -->
@@ -327,71 +351,73 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSignInAlert</span>
-                <span class="method-start">5004 ms</span>
+                <span class="method-start">10553 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">5928 ms</span>
+                <span class="method-start">11476 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.automation.testing.TC002_ForgotPasswordAlertTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">8279 ms</span>
+                <span class="method-start">13623 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testForgotPasswordAlert</span>
-                <span class="method-start">12473 ms</span>
+                <span class="method-start">18377 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">14432 ms</span>
+                <span class="method-start">20769 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.automation.testing.TC003_PrivacyPolicyTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">16830 ms</span>
+                <span class="method-start">22940 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testPrivacyPolicyPage</span>
-                <span class="method-start">21107 ms</span>
+                <span class="method-start">26841 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">24862 ms</span>
+                <span class="method-start">30908 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.automation.testing.TC004_MoneyFeedbackTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">27805 ms</span>
+                <span class="method-start">33539 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateFeedbackLinkInMoneyPage</span>
-                <span class="method-start">32158 ms</span>
+                <span class="method-start">38150 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">36049 ms</span>
+                <span class="method-start">41541 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.automation.testing.TC005_MoneySearchBoxTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">38605 ms</span>
+                <span class="method-start">43764 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testMoneySearchBox</span>
-                <span class="method-start">42948 ms</span>
+                <span class="method-start">48044 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">47764 ms</span>
+                <span class="method-start">68302 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

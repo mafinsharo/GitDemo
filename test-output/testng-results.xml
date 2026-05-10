@@ -1,77 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-19T16:26:39 IST" name="AutomationSuite" finished-at="2026-04-19T16:27:30 IST" duration-ms="50603">
+  <suite started-at="2026-05-10T18:05:33 IST" name="AutomationSuite" finished-at="2026-05-10T18:06:45 IST" duration-ms="72044">
     <groups>
     </groups>
-    <test started-at="2026-04-19T16:26:39 IST" name="AlertAndPrivacyTests" finished-at="2026-04-19T16:27:30 IST" duration-ms="50603">
+    <test started-at="2026-05-10T18:05:33 IST" name="AlertAndPrivacyTests" finished-at="2026-05-10T18:06:45 IST" duration-ms="72044">
       <class name="org.automation.testing.TC002_ForgotPasswordAlertTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:org.automation.testing.TC002_ForgotPasswordAlertTest@55141def]" started-at="2026-04-19T16:26:47 IST" name="setUp" finished-at="2026-04-19T16:26:52 IST" duration-ms="4194" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.automation.testing.TC002_ForgotPasswordAlertTest@2b71e916]" started-at="2026-05-10T18:05:47 IST" name="setUp" finished-at="2026-05-10T18:05:52 IST" duration-ms="4754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testForgotPasswordAlert()[pri:0, instance:org.automation.testing.TC002_ForgotPasswordAlertTest@55141def]" started-at="2026-04-19T16:26:52 IST" name="testForgotPasswordAlert" finished-at="2026-04-19T16:26:54 IST" duration-ms="1958" status="PASS">
+        <test-method signature="testForgotPasswordAlert()[pri:0, instance:org.automation.testing.TC002_ForgotPasswordAlertTest@2b71e916]" started-at="2026-05-10T18:05:52 IST" name="testForgotPasswordAlert" finished-at="2026-05-10T18:05:54 IST" duration-ms="2392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForgotPasswordAlert -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.testing.TC002_ForgotPasswordAlertTest@55141def]" started-at="2026-04-19T16:26:54 IST" name="tearDown" finished-at="2026-04-19T16:26:56 IST" duration-ms="2397" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.testing.TC002_ForgotPasswordAlertTest@2b71e916]" started-at="2026-05-10T18:05:54 IST" name="tearDown" finished-at="2026-05-10T18:05:56 IST" duration-ms="2170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- org.automation.testing.TC002_ForgotPasswordAlertTest -->
       <class name="org.automation.testing.TC001_SignInAlertTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:org.automation.testing.TC001_SignInAlertTest@6d763516]" started-at="2026-04-19T16:26:39 IST" name="setUp" finished-at="2026-04-19T16:26:44 IST" duration-ms="5003" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.automation.testing.TC001_SignInAlertTest@77847718]" started-at="2026-05-10T18:05:33 IST" name="setUp" finished-at="2026-05-10T18:05:44 IST" duration-ms="10551" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSignInAlert()[pri:0, instance:org.automation.testing.TC001_SignInAlertTest@6d763516]" started-at="2026-04-19T16:26:44 IST" name="testSignInAlert" finished-at="2026-04-19T16:26:45 IST" duration-ms="919" status="PASS">
+        <test-method signature="testSignInAlert()[pri:0, instance:org.automation.testing.TC001_SignInAlertTest@77847718]" started-at="2026-05-10T18:05:44 IST" name="testSignInAlert" finished-at="2026-05-10T18:05:45 IST" duration-ms="919" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignInAlert -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.testing.TC001_SignInAlertTest@6d763516]" started-at="2026-04-19T16:26:45 IST" name="tearDown" finished-at="2026-04-19T16:26:47 IST" duration-ms="2351" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.testing.TC001_SignInAlertTest@77847718]" started-at="2026-05-10T18:05:45 IST" name="tearDown" finished-at="2026-05-10T18:05:47 IST" duration-ms="2147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- org.automation.testing.TC001_SignInAlertTest -->
       <class name="org.automation.testing.TC005_MoneySearchBoxTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:org.automation.testing.TC005_MoneySearchBoxTest@62379589]" started-at="2026-04-19T16:27:18 IST" name="setUp" finished-at="2026-04-19T16:27:22 IST" duration-ms="4343" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.automation.testing.TC005_MoneySearchBoxTest@815b41f]" started-at="2026-05-10T18:06:17 IST" name="setUp" finished-at="2026-05-10T18:06:21 IST" duration-ms="4280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testMoneySearchBox()[pri:0, instance:org.automation.testing.TC005_MoneySearchBoxTest@62379589]" started-at="2026-04-19T16:27:22 IST" name="testMoneySearchBox" finished-at="2026-04-19T16:27:27 IST" duration-ms="4815" status="PASS">
+        <test-method signature="testMoneySearchBox()[pri:0, instance:org.automation.testing.TC005_MoneySearchBoxTest@815b41f]" started-at="2026-05-10T18:06:21 IST" name="testMoneySearchBox" finished-at="2026-05-10T18:06:41 IST" duration-ms="20231" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for title to contain "TATA". Current title: "Tata Consult. Serv. Share Price Live NSE BSE – Tata Consultancy Services Ltd. Stock | Rediff Money".
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2481726\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58085}, goog:processID: 18328, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58085/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 73ffff080c1bcda186428afda3240657]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "TATA". Current title: "Tata Consult. Serv. Share Price Live NSE BSE – Tata Consultancy Services Ltd. Stock | Rediff Money".
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2481726\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58085}, goog:processID: 18328, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58085/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 73ffff080c1bcda186428afda3240657
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+at org.automation.testing.TC005_MoneySearchBoxTest.testMoneySearchBox(TC005_MoneySearchBoxTest.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMoneySearchBox -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.testing.TC005_MoneySearchBoxTest@62379589]" started-at="2026-04-19T16:27:27 IST" name="tearDown" finished-at="2026-04-19T16:27:30 IST" duration-ms="2794" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.testing.TC005_MoneySearchBoxTest@815b41f]" started-at="2026-05-10T18:06:41 IST" name="tearDown" finished-at="2026-05-10T18:06:45 IST" duration-ms="3701" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- org.automation.testing.TC005_MoneySearchBoxTest -->
       <class name="org.automation.testing.TC004_MoneyFeedbackTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:org.automation.testing.TC004_MoneyFeedbackTest@74235045]" started-at="2026-04-19T16:27:07 IST" name="setUp" finished-at="2026-04-19T16:27:11 IST" duration-ms="4353" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.automation.testing.TC004_MoneyFeedbackTest@43bc63a3]" started-at="2026-05-10T18:06:07 IST" name="setUp" finished-at="2026-05-10T18:06:11 IST" duration-ms="4611" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateFeedbackLinkInMoneyPage()[pri:0, instance:org.automation.testing.TC004_MoneyFeedbackTest@74235045]" started-at="2026-04-19T16:27:11 IST" name="validateFeedbackLinkInMoneyPage" finished-at="2026-04-19T16:27:15 IST" duration-ms="3891" status="PASS">
+        <test-method signature="validateFeedbackLinkInMoneyPage()[pri:0, instance:org.automation.testing.TC004_MoneyFeedbackTest@43bc63a3]" started-at="2026-05-10T18:06:11 IST" name="validateFeedbackLinkInMoneyPage" finished-at="2026-05-10T18:06:15 IST" duration-ms="3391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateFeedbackLinkInMoneyPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.testing.TC004_MoneyFeedbackTest@74235045]" started-at="2026-04-19T16:27:15 IST" name="tearDown" finished-at="2026-04-19T16:27:18 IST" duration-ms="2556" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.testing.TC004_MoneyFeedbackTest@43bc63a3]" started-at="2026-05-10T18:06:15 IST" name="tearDown" finished-at="2026-05-10T18:06:17 IST" duration-ms="2223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- org.automation.testing.TC004_MoneyFeedbackTest -->
       <class name="org.automation.testing.TC003_PrivacyPolicyTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:org.automation.testing.TC003_PrivacyPolicyTest@59474f18]" started-at="2026-04-19T16:26:56 IST" name="setUp" finished-at="2026-04-19T16:27:00 IST" duration-ms="4277" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.automation.testing.TC003_PrivacyPolicyTest@557caf28]" started-at="2026-05-10T18:05:56 IST" name="setUp" finished-at="2026-05-10T18:06:00 IST" duration-ms="3901" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testPrivacyPolicyPage()[pri:0, instance:org.automation.testing.TC003_PrivacyPolicyTest@59474f18]" started-at="2026-04-19T16:27:00 IST" name="testPrivacyPolicyPage" finished-at="2026-04-19T16:27:04 IST" duration-ms="3755" status="PASS">
+        <test-method signature="testPrivacyPolicyPage()[pri:0, instance:org.automation.testing.TC003_PrivacyPolicyTest@557caf28]" started-at="2026-05-10T18:06:00 IST" name="testPrivacyPolicyPage" finished-at="2026-05-10T18:06:04 IST" duration-ms="4067" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPrivacyPolicyPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.testing.TC003_PrivacyPolicyTest@59474f18]" started-at="2026-04-19T16:27:04 IST" name="tearDown" finished-at="2026-04-19T16:27:07 IST" duration-ms="2941" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automation.testing.TC003_PrivacyPolicyTest@557caf28]" started-at="2026-05-10T18:06:04 IST" name="tearDown" finished-at="2026-05-10T18:06:07 IST" duration-ms="2615" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

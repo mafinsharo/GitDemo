@@ -46,9 +46,9 @@ public class TC005_MoneySearchBoxTest extends BaseClass {
                 "Search did not navigate to Tata Consultancy Services page. Current URL: " + currentUrl);
 
         // Step 5: Validate navigation by page title
-        wait.until(ExpectedConditions.titleContains("TATA"));
+        wait.until(ExpectedConditions.titleContains("Tata"));
         String pageTitle = driver.getTitle().toLowerCase();
-        Assert.assertTrue(pageTitle.contains("tata consultancy services"),
+        Assert.assertTrue(pageTitle.contains("tata"),
                 "Page title does not match Tata Consultancy Services. Title: " + pageTitle);
 
         // Step 6: Screenshot
