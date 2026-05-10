@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="AutomationSuite">
+    <test name="AlertAndPrivacyTests">
+        <classes>
+            <class name="org.automation.testing.TC001_SignInAlertTest"/>
+            <class name="org.automation.testing.TC002_ForgotPasswordAlertTest"/>
+            <class name="org.automation.testing.TC003_PrivacyPolicyTest"/>
+            <class name="org.automation.testing.TC004_MoneyFeedbackTest"/>
+            <class name="org.automation.testing.TC005_MoneySearchBoxTest"/>
+        </classes>
+    </test>
+</suite>
